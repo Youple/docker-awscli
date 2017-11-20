@@ -9,3 +9,4 @@ RUN \
 
 WORKDIR /aws
 ENTRYPOINT ["aws"]
+ENV AWS_DEFAULT_REGION "eu-central-1"
